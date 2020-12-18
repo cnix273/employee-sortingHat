@@ -232,7 +232,7 @@ async function engineerInfo () {
         if (answers.employeeCheck == "No thanks!") {
             console.log(team)
             const HTML = render(team);
-            fs.writeFile(outputPath, HTML, (err) => err ? console.error(err) : console.log("Success!"));
+            fs.writeFile(outputPath, HTML, (err) => err ? console.error(err) : console.log("Your Employee Summary has been successfully created!"));
         }
     })
     .catch(err => {
@@ -255,7 +255,7 @@ async function internInfo () {
         if (answers.employeeCheck == "No thanks!") {
             console.log(team)
             const HTML = render(team);
-            fs.writeFile(outputPath, HTML, (err) => err ? console.error(err) : console.log("Success!"));
+            fs.writeFile(outputPath, HTML, (err) => err ? console.error(err) : console.log("Your Employee Summary has been successfully created!"));
         }
     })
     .catch(err => {
@@ -280,7 +280,7 @@ async function employeeInfo() {
         if (answers.employeeCheck == "No thanks!") {
             console.log(team)
             const HTML = render(team);
-            fs.writeFile(outputPath, HTML, (err) => err ? console.error(err) : console.log("Employee Summaries "));
+            fs.writeFile(outputPath, HTML, (err) => err ? console.error(err) : console.log("Your Employee Summary has been successfully created!"));
         }  
     })
     .catch(err => {
